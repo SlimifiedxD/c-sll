@@ -6,7 +6,7 @@ void printElement(int data) { printf("%d\n", data); }
 int main()
 {
   List *l = SLL_createList();
-  if (!SLL_createList())
+  if (!l)
   {
     return 1;
   }
